@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionNavSuperior {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+}
+
+#alignLeft{
+    text-align: left;
+    padding-left: 100px;
+}
+
+#alignRight{
+    text-align: right;
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+#alignRight img{
+    height: 8px;
+    width: 8px;
+    margin-top: 22px;
+}
+
+.sectionNavPrincipal {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionNavPrincipal a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sectionNavPrincipal #logo{
+    width: 148px;
+    margin: 18px;
+}
+
+.inline{
+    display: inline-flex;
+    align-items: center;
+}
+
+.inline div{
+    margin: 15px;
+    background-color: #FBFAF6;
+}
+
+.sectionBanner {
+    background-image: url(../img/banner.png);
+    height: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+.sectionBanner h2{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 15px;
+    font-size: 40px;
+    margin-right: 200px;
+}
+
+.sectionBanner p{
+    margin-right: 200px;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.sectionBanner input {
+    margin-right: 200px;
+    font-size: 16px;
+    margin-top: -15px;
+    background-color: #F0A83E;
+    border-radius: 0.5rem;
+    border-style: none;
+    color: #ffffff;
+    padding: 16px 24px;
+}
+.sectionProductosDestacados{
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+ul li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.sectionContact{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#inputFormContact input{
+    display: grid;
+    margin-top: 15px;
+    border-style: none;
+    background-color: #3C2313;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+}
+
+.sectionContact h2{
+    color: #3C2313;
+    font-size: 40px;
+}
+
+.form input button{
+    margin: 5px;
+}
+
+.form button{
+    border-radius: 15px;
+    border-style: none;
+    width: 110px;
+    height: 34px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+#btnReset{
+background-color: #8A8787;
+}
+
+#btnSend{
+background-color: #F0A83E;
+}
+.form ::placeholder {
+    color: white;
+    padding-left: 15px;
+}
+
+.sectionSuscribete{
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    color: #ffffff;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.footerRight{
+    display: flex;
+    align-items: center;
+    margin-right: 42px;
+    gap: 10px;
+}
+
+.footerRight button{
+    background-color: #3C2313;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.footerRight input{
+    padding: 15px;
+    border-radius: 15px;
+    width: 271px;
+    height: 20px;
+    border-style: none;
+}
+
+.footerRight ::placeholder{
+    color: #8A8787;
+}
+
+.sectionInfo {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionInfo #RRSS{
+margin: 20px 0px 40px 80px;
+display: flex;
+flex-direction: column;
+color: #ffffff;
+}
+
+#RRSS img{
+    width: 90px;
+    height: 90px;
+}
+
+#RRSS h4{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.footerInline{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.footerInline .marginTopNegative{
+margin-top: -60px;
+}
+
+.marginTopNegative span{
+    color: #8A8787;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footerLogo{
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo img{
+    padding-right: 57px;
+    width: 230px;
+}
+
+.sectionFooterDerechos{
+    background-color: #222222;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 29px;
+    align-items: center;
+}
